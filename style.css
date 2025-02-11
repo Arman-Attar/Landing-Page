@@ -144,7 +144,7 @@ button {
 .quote {
     text-align: center;
     font-size: 36px;
-    font-weight:200;
+    font-weight:300;
     font-style: italic;
 }
 
@@ -153,4 +153,43 @@ button {
     font-size: 22px;
     font-weight: 900;
 }
+
+/* call to action */
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    margin: 100px 200px;
+    padding: 50px 100px;
+}
+
+.action-header {
+    font-size: 22px;
+    font-weight: 600;
+    color: #F9FAF8
+}
+
+.action-subtext {
+    font-size: 18px;
+    font-weight: 300;
+    color: #F9FAF8
+}
+
+.signup2 {
+    border: none;
+    border-radius: 10px;
+    border: #F9FAF8 solid;
+    height:35px;
+    width: 130px;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
 
