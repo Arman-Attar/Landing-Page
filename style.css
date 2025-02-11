@@ -49,7 +49,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 90px 200px;
+    padding: 120px 200px;
     gap: 30px;
 }
 
@@ -97,13 +97,14 @@ button {
 
 .random-section {
     text-align: center;
+    padding: 50px 300px;
 }
 
 .info-header {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-    padding: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -111,6 +112,7 @@ button {
     display: flex;
     gap: 20px;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .image {
@@ -130,5 +132,25 @@ button {
     color: #77777d; 
     font-weight: 450;
     padding: 15px;
+}
+
+/* quote section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    font-weight:200;
+    font-style: italic;
+}
+
+.quote-name {
+    text-align: end;
+    font-size: 22px;
+    font-weight: 900;
 }
 
