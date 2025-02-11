@@ -15,7 +15,7 @@ body {
     padding: 20px 200px;
 }
 
-.header-container, .container {
+.header-container, .container, .footer {
     background-color: #1f2937;
 }
 
@@ -189,6 +189,15 @@ button {
     font-weight: 600;
     font-size: 16px;
     margin-top: 10px;
+}
+
+/* footer */ 
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+    color: #a4a4ab; 
+    padding: 40px;
 }
 
 
